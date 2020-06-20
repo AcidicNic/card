@@ -31,7 +31,7 @@ padding-right: 4vw;
   margin-right: auto;
 }
 
-#card:hover .face {
+.main-card:hover .face {
   -webkit-transition: all 0.3s ease-out;
 }
 
@@ -71,16 +71,16 @@ padding-right: 4vw;
   background-color: #d6eeff;
 }
 
-#card:hover .front,
-#card:hover .inner-left {
+.main-card:hover .front,
+.main-card:hover .inner-left {
   -webkit-transform: rotateY(-35deg);
 }
 
-.card-toggle:checked + #card .front,
-.card-toggle:checked + #card .inner-left {
+.card-toggle:checked + .main-card .front,
+.card-toggle:checked + .main-card .inner-left {
   -webkit-transform: rotateY(-165deg);
 }
 
-.card-toggle:checked + #card .inner-right {
+.card-toggle:checked + .main-card .inner-right {
   -webkit-transform: rotateY(-15deg);
 }
